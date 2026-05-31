@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Nguyễn Linh Chi | Logistics Portfolio</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f8fafc;
+      color: #0f172a;
+      line-height: 1.6;
+    }
+
+    .container {
+      display: flex;
+      min-height: 100vh;
+    }
+
+    .sidebar {
+      width: 300px;
+      background-color: #0f172a;
+      color: white;
+      padding: 40px 30px;
+      position: fixed;
+      height: 100vh;
+      box-sizing: border-box;
+    }
+
+    .sidebar h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    .sidebar p {
+      color: #cbd5e1;
+      font-size: 15px;
+    }
+
+    .nav {
+      margin-top: 40px;
+    }
+
+    .nav a {
+      display: block;
+      color: #e2e8f0;
+      text-decoration: none;
+      margin: 15px 0;
+      font-size: 16px;
+    }
+
+    .nav a:hover {
+      color: #60a5fa;
+    }
+
+    .main {
+      margin-left: 300px;
+      padding: 60px 80px;
+      max-width: 900px;
+    }
+
+    section {
+      margin-bottom: 60px;
+    }
+
+    h2 {
+      font-size: 28px;
+      border-bottom: 2px solid #2563eb;
+      padding-bottom: 8px;
+      margin-bottom: 20px;
+    }
+
+    h3 {
+      margin-bottom: 5px;
+      color: #1e293b;
+    }
+
+    .tagline {
+      font-size: 22px;
+      color: #2563eb;
+      font-weight: bold;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 14px;
+      box-shadow: 0 4px 16px rgba(15, 23, 42, 0.08);
+      margin-bottom: 20px;
+    }
+
+    .button {
+      display: inline-block;
+      background-color: #2563eb;
+      color: white;
+      padding: 12px 18px;
+      border-radius: 8px;
+      text-decoration: none;
+      margin-right: 10px;
+      margin-top: 10px;
+    }
+
+    .button.secondary {
+      background-color: #0f172a;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    footer {
+      color: #64748b;
+      font-size: 14px;
+      margin-top: 80px;
+    }
+
+    @media (max-width: 800px) {
+      .container {
+        display: block;
+      }
+
+      .sidebar {
+        position: relative;
+        width: 100%;
+        height: auto;
+      }
+
+      .main {
+        margin-left: 0;
+        padding: 35px 25px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <aside class="sidebar">
+      <h1>Nguyễn Linh Chi</h1>
+      <p>Logistics & Supply Chain Student</p>
+      <p>Foreign Trade University</p>
+
+      <div class="nav">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#activities">Activities</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </aside>
+
+    <main class="main">
+
+      <section id="home">
+        <p class="tagline">Logistics & Supply Chain Portfolio</p>
+        <h2>Welcome</h2>
+        <p>
+          I am a Logistics and Supply Chain Management student at Foreign Trade University,
+          with a strong academic background and initial hands-on experience in international
+          e-commerce logistics.
+        </p>
+        <p>
+          I am interested in export documentation, transportation, warehouse operations,
+          freight forwarding, and supply chain coordination.
+        </p>
+
+        <a class="button" href="#contact">Contact Me</a>
+        <a class="button secondary" href="#experience">View Experience</a>
+      </section>
+
+      <section id="about">
+        <h2>About Me</h2>
+        <div class="card">
+          <p>
+            I am currently pursuing a major in Logistics and Supply Chain Management
+            at Foreign Trade University. My goal is to gain practical experience in
+            logistics operations and apply academic knowledge to real business environments.
+          </p>
+          <p>
+            Through my internship at Vietnam Post Logistics, I had the opportunity to
+            learn about export documentation and international e-commerce shipping processes,
+            especially related to Amazon.
+          </p>
+        </div>
+      </section>
+
+      <section id="experience">
+        <h2>Experience</h2>
+
+        <div class="card">
+          <h3>Logistics Intern — Vietnam Post Logistics</h3>
+          <p><strong>International E-commerce Department</strong></p>
+          <p>Oct 2025 – Jan 2026</p>
+          <ul>
+            <li>Learned about export documentation required for international e-commerce shipments.</li>
+            <li>Studied the export process for goods sold on global platforms, especially Amazon.</li>
+            <li>Gained initial exposure to cross-border logistics operations and document handling.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Math and Physics Tutor</h3>
+          <p>2024 – Present</p>
+          <ul>
+            <li>Designed personalized learning plans for students based on their abilities and needs.</li>
+            <li>Developed communication, explanation, patience, and time management skills.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="education">
+        <h2>Education</h2>
+
+        <div class="card">
+          <h3>Foreign Trade University</h3>
+          <p><strong>Logistics and Supply Chain Management</strong></p>
+          <p>2024 – 2027 expected</p>
+        </div>
+
+        <div class="card">
+          <h3>Academic Achievements</h3>
+          <ul>
+            <li>First Prize in Provincial Excellent Student Contest — Mathematics, 2024</li>
+            <li>Second Prize in Provincial Excellent Student Contest — Physics, 2024</li>
+            <li>National High School Graduation Exam: Math 9.2, Physics 9.25, Chemistry 9.0</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="skills">
+        <h2>Skills</h2>
+
+        <div class="card">
+          <h3>Logistics & Supply Chain</h3>
+          <ul>
+            <li>Export documentation</li>
+            <li>International e-commerce logistics</li>
+            <li>Basic understanding of warehouse, transportation, and forwarding operations</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Tools</h3>
+          <ul>
+            <li>Microsoft Word, Excel, PowerPoint</li>
+            <li>Visual presentation and image editing</li>
+            <li>Technology-assisted working and learning</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Soft Skills</h3>
+          <ul>
+            <li>Teamwork and communication</li>
+            <li>Time management</li>
+            <li>Responsibility and fast learning</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Languages</h3>
+          <ul>
+            <li>Vietnamese</li>
+            <li>English</li>
+            <li>Chinese</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="activities">
+        <h2>Activities</h2>
+
+        <div class="card">
+          <h3>Volunteer Club Member</h3>
+          <p>Phan Đăng Lưu High School, 2021 – 2024</p>
+          <ul>
+            <li>Participated in community activities such as environmental cleaning and supporting disadvantaged people.</li>
+            <li>Developed teamwork, communication, and time management skills.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+
+        <div class="card">
+          <p><strong>Email:</strong> linhchi2042006@gmail.com</p>
+          <p><strong>Location:</strong> Hanoi, Vietnam</p>
+          <p>
+            I am open to internship opportunities in logistics, supply chain,
+            international e-commerce logistics, and export-import operations.
+          </p>
+        </div>
+      </section>
+
+      <footer>
+        © 2026 Nguyễn Linh Chi. Portfolio built with GitHub Pages.
+      </footer>
+
+    </main>
+  </div>
+</body>
+</html>
