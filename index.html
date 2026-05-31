@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -424,54 +425,52 @@
       border: 1px solid rgba(37, 99, 235, 0.12);
     }
 
-    ```css
-```css
-.contact-card {
-  position: relative;
-  overflow: hidden;
-  color: var(--navy);
-  border: 1px solid rgba(148, 163, 184, 0.25);
+    /* ================= CONTACT BACKGROUND ================= */
 
-  background-image:
-    linear-gradient(
-      rgba(255, 255, 255, 0.68),
-      rgba(255, 255, 255, 0.76)
-    ),
-    url("chingulam.jpg?v=20260531");
+    .contact-card {
+      position: relative;
+      overflow: hidden;
+      color: var(--navy);
+      border: 1px solid rgba(148, 163, 184, 0.25);
 
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
+      background-image:
+        linear-gradient(
+          rgba(255, 255, 255, 0.68),
+          rgba(255, 255, 255, 0.76)
+        ),
+        url("chingulam.jpg?v=20260531");
 
-.contact-card h3,
-.contact-card p,
-.contact-card a,
-.contact-card strong {
-  position: relative;
-  z-index: 1;
-}
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
 
-.contact-card h3 {
-  color: var(--navy);
-}
+    .contact-card h3,
+    .contact-card p,
+    .contact-card a,
+    .contact-card strong {
+      position: relative;
+      z-index: 1;
+    }
 
-.contact-card p {
-  color: #1e293b;
-}
+    .contact-card h3 {
+      color: var(--navy);
+    }
 
-.contact-card strong {
-  color: #0f172a;
-}
+    .contact-card p {
+      color: #1e293b;
+    }
 
-.contact-card a {
-  color: #1d4ed8;
-  font-weight: 800;
-  text-decoration: none;
-  border-bottom: 1px solid rgba(29, 78, 216, 0.55);
-}
-```
+    .contact-card strong {
+      color: #0f172a;
+    }
 
+    .contact-card a {
+      color: #1d4ed8;
+      font-weight: 800;
+      text-decoration: none;
+      border-bottom: 1px solid rgba(29, 78, 216, 0.55);
+    }
 
     footer {
       max-width: 980px;
@@ -541,239 +540,243 @@
       }
     }
   </style>
+
 </head>
 
 <body>
   <div class="container">
 
-    <aside class="sidebar">
-      <img src="chingungu.jpg?v=20260531" alt="" class="sidebar-bg">
-      <div class="sidebar-overlay"></div>
+```
+<aside class="sidebar">
+  <img src="chingungu.jpg?v=20260531" alt="" class="sidebar-bg">
+  <div class="sidebar-overlay"></div>
 
-      <div class="sidebar-content">
-        <img src="chingu.jpg?v=20260531" alt="Nguyễn Linh Chi" class="avatar">
+  <div class="sidebar-content">
+    <img src="chingu.jpg?v=20260531" alt="Nguyễn Linh Chi" class="avatar">
 
-        <h1>Nguyễn Linh Chi</h1>
-        <p class="role">Logistics & Supply Chain Student</p>
-        <p class="university">Foreign Trade University</p>
+    <h1>Nguyễn Linh Chi</h1>
+    <p class="role">Logistics & Supply Chain Student</p>
+    <p class="university">Foreign Trade University</p>
 
-        <div class="sidebar-divider"></div>
+    <div class="sidebar-divider"></div>
 
-        <nav class="nav">
-          <a href="#about">About</a>
-          <a href="#experience">Experience</a>
-          <a href="#education">Education</a>
-          <a href="#skills">Skills</a>
-          <a href="#interests">Interests</a>
-          <a href="#activities">Activities</a>
-          <a href="#contact">Contact</a>
-        </nav>
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#interests">Interests</a>
+      <a href="#activities">Activities</a>
+      <a href="#contact">Contact</a>
+    </nav>
 
-        <p class="sidebar-note">
-          Open to internship opportunities in logistics, supply chain, and international e-commerce operations.
-        </p>
+    <p class="sidebar-note">
+      Open to internship opportunities in logistics, supply chain, and international e-commerce operations.
+    </p>
+  </div>
+</aside>
+
+<main class="main">
+
+  <section id="home" class="hero">
+    <div class="hero-card">
+      <p class="eyebrow">Hi, I’m Linh Chi</p>
+
+      <h2>
+        Future Logistics & Supply Chain Professional
+      </h2>
+
+      <p class="hero-text">
+        I am a Logistics and Supply Chain Management student at
+        <span class="highlight">Foreign Trade University</span>,
+        with a strong academic background and hands-on exposure to
+        <span class="highlight">international e-commerce logistics</span>,
+        export documentation, and cross-border shipping operations.
+      </p>
+
+      <div class="button-group">
+        <a class="button" href="#contact">Contact Me</a>
+        <a class="button secondary" href="#experience">View Experience</a>
       </div>
-    </aside>
+    </div>
+  </section>
 
-    <main class="main">
+  <section id="about">
+    <h2 class="section-title">About Me</h2>
 
-      <section id="home" class="hero">
-        <div class="hero-card">
-          <p class="eyebrow">Hi, I’m Linh Chi</p>
+    <div class="card">
+      <p>
+        I am currently pursuing a major in Logistics and Supply Chain Management at
+        Foreign Trade University. My goal is to gain practical experience in logistics
+        operations and apply academic knowledge to real business environments.
+      </p>
 
-          <h2>
-            Future Logistics & Supply Chain Professional
-          </h2>
+      <p>
+        Through my internship at Vietnam Post Logistics, I had the opportunity to learn
+        about export documentation and international e-commerce shipping processes,
+        especially related to Amazon. This experience helped me better understand how
+        logistics supports cross-border commerce and business operations.
+      </p>
+    </div>
+  </section>
 
-          <p class="hero-text">
-            I am a Logistics and Supply Chain Management student at
-            <span class="highlight">Foreign Trade University</span>,
-            with a strong academic background and hands-on exposure to
-            <span class="highlight">international e-commerce logistics</span>,
-            export documentation, and cross-border shipping operations.
-          </p>
+  <section id="experience">
+    <h2 class="section-title">Experience</h2>
 
-          <div class="button-group">
-            <a class="button" href="#contact">Contact Me</a>
-            <a class="button secondary" href="#experience">View Experience</a>
-          </div>
+    <div class="card">
+      <h3>Logistics Intern — Vietnam Post Logistics</h3>
+      <p class="meta">International E-commerce Department</p>
+      <p class="date">Oct 2025 – Jan 2026</p>
+
+      <ul>
+        <li>Learned about export documentation required for international e-commerce shipments.</li>
+        <li>Studied the export process for goods sold on global platforms, especially Amazon.</li>
+        <li>Gained initial exposure to cross-border logistics operations and document handling.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Math and Physics Tutor</h3>
+      <p class="date">2024 – Present</p>
+
+      <ul>
+        <li>Designed personalized learning plans for students based on their abilities and needs.</li>
+        <li>Developed communication, explanation, patience, and time management skills.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="education">
+    <h2 class="section-title">Education</h2>
+
+    <div class="card">
+      <h3>Foreign Trade University</h3>
+      <p class="meta">Logistics and Supply Chain Management</p>
+      <p class="date">2024 – 2027 expected</p>
+    </div>
+
+    <div class="card">
+      <h3>Academic Achievements</h3>
+
+      <ul>
+        <li>First Prize in Provincial Excellent Student Contest — Mathematics, 2024</li>
+        <li>Second Prize in Provincial Excellent Student Contest — Physics, 2024</li>
+        <li>National High School Graduation Exam: Math 9.2, Physics 9.25, Chemistry 9.0</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2 class="section-title">Skills</h2>
+
+    <div class="grid">
+      <div class="card skill-card">
+        <h3>Logistics & Supply Chain</h3>
+        <div class="pill-list">
+          <span class="pill">Export Documentation</span>
+          <span class="pill">E-commerce Logistics</span>
+          <span class="pill">Transportation</span>
+          <span class="pill">Warehouse Operations</span>
+          <span class="pill">Forwarding Basics</span>
         </div>
-      </section>
+      </div>
 
-      <section id="about">
-        <h2 class="section-title">About Me</h2>
-
-        <div class="card">
-          <p>
-            I am currently pursuing a major in Logistics and Supply Chain Management at
-            Foreign Trade University. My goal is to gain practical experience in logistics
-            operations and apply academic knowledge to real business environments.
-          </p>
-
-          <p>
-            Through my internship at Vietnam Post Logistics, I had the opportunity to learn
-            about export documentation and international e-commerce shipping processes,
-            especially related to Amazon. This experience helped me better understand how
-            logistics supports cross-border commerce and business operations.
-          </p>
+      <div class="card skill-card">
+        <h3>Tools</h3>
+        <div class="pill-list">
+          <span class="pill">Microsoft Word</span>
+          <span class="pill">Excel</span>
+          <span class="pill">PowerPoint</span>
+          <span class="pill">Visual Presentation</span>
+          <span class="pill">Image Editing</span>
         </div>
-      </section>
+      </div>
 
-      <section id="experience">
-        <h2 class="section-title">Experience</h2>
-
-        <div class="card">
-          <h3>Logistics Intern — Vietnam Post Logistics</h3>
-          <p class="meta">International E-commerce Department</p>
-          <p class="date">Oct 2025 – Jan 2026</p>
-
-          <ul>
-            <li>Learned about export documentation required for international e-commerce shipments.</li>
-            <li>Studied the export process for goods sold on global platforms, especially Amazon.</li>
-            <li>Gained initial exposure to cross-border logistics operations and document handling.</li>
-          </ul>
+      <div class="card skill-card">
+        <h3>Soft Skills</h3>
+        <div class="pill-list">
+          <span class="pill">Teamwork</span>
+          <span class="pill">Communication</span>
+          <span class="pill">Time Management</span>
+          <span class="pill">Responsibility</span>
+          <span class="pill">Fast Learning</span>
         </div>
+      </div>
 
-        <div class="card">
-          <h3>Math and Physics Tutor</h3>
-          <p class="date">2024 – Present</p>
-
-          <ul>
-            <li>Designed personalized learning plans for students based on their abilities and needs.</li>
-            <li>Developed communication, explanation, patience, and time management skills.</li>
-          </ul>
+      <div class="card skill-card">
+        <h3>Languages</h3>
+        <div class="pill-list">
+          <span class="pill">Vietnamese</span>
+          <span class="pill">English</span>
+          <span class="pill">Chinese</span>
         </div>
-      </section>
+      </div>
+    </div>
+  </section>
 
-      <section id="education">
-        <h2 class="section-title">Education</h2>
+  <section id="interests">
+    <h2 class="section-title">Career Interests</h2>
 
-        <div class="card">
-          <h3>Foreign Trade University</h3>
-          <p class="meta">Logistics and Supply Chain Management</p>
-          <p class="date">2024 – 2027 expected</p>
-        </div>
+    <div class="card">
+      <p>
+        I am especially interested in roles and learning opportunities related to:
+      </p>
 
-        <div class="card">
-          <h3>Academic Achievements</h3>
+      <div class="pill-list">
+        <span class="pill">International E-commerce Logistics</span>
+        <span class="pill">Export & Import Documentation</span>
+        <span class="pill">Freight Forwarding</span>
+        <span class="pill">Warehouse Operations</span>
+        <span class="pill">Supply Chain Coordination</span>
+        <span class="pill">Logistics Process Optimization</span>
+      </div>
+    </div>
+  </section>
 
-          <ul>
-            <li>First Prize in Provincial Excellent Student Contest — Mathematics, 2024</li>
-            <li>Second Prize in Provincial Excellent Student Contest — Physics, 2024</li>
-            <li>National High School Graduation Exam: Math 9.2, Physics 9.25, Chemistry 9.0</li>
-          </ul>
-        </div>
-      </section>
+  <section id="activities">
+    <h2 class="section-title">Activities</h2>
 
-      <section id="skills">
-        <h2 class="section-title">Skills</h2>
+    <div class="card">
+      <h3>Volunteer Club Member</h3>
+      <p class="meta">Phan Đăng Lưu High School</p>
+      <p class="date">2021 – 2024</p>
 
-        <div class="grid">
-          <div class="card skill-card">
-            <h3>Logistics & Supply Chain</h3>
-            <div class="pill-list">
-              <span class="pill">Export Documentation</span>
-              <span class="pill">E-commerce Logistics</span>
-              <span class="pill">Transportation</span>
-              <span class="pill">Warehouse Operations</span>
-              <span class="pill">Forwarding Basics</span>
-            </div>
-          </div>
+      <ul>
+        <li>Participated in community activities such as environmental cleaning and supporting disadvantaged people.</li>
+        <li>Developed teamwork, communication, and time management skills through volunteer work.</li>
+      </ul>
+    </div>
+  </section>
 
-          <div class="card skill-card">
-            <h3>Tools</h3>
-            <div class="pill-list">
-              <span class="pill">Microsoft Word</span>
-              <span class="pill">Excel</span>
-              <span class="pill">PowerPoint</span>
-              <span class="pill">Visual Presentation</span>
-              <span class="pill">Image Editing</span>
-            </div>
-          </div>
+  <section id="contact">
+    <h2 class="section-title">Contact</h2>
 
-          <div class="card skill-card">
-            <h3>Soft Skills</h3>
-            <div class="pill-list">
-              <span class="pill">Teamwork</span>
-              <span class="pill">Communication</span>
-              <span class="pill">Time Management</span>
-              <span class="pill">Responsibility</span>
-              <span class="pill">Fast Learning</span>
-            </div>
-          </div>
+    <div class="card contact-card">
+      <h3>Let’s connect</h3>
 
-          <div class="card skill-card">
-            <h3>Languages</h3>
-            <div class="pill-list">
-              <span class="pill">Vietnamese</span>
-              <span class="pill">English</span>
-              <span class="pill">Chinese</span>
-            </div>
-          </div>
-        </div>
-      </section>
+      <p>
+        I am open to internship opportunities in logistics, supply chain,
+        international e-commerce logistics, and export-import operations.
+      </p>
 
-      <section id="interests">
-        <h2 class="section-title">Career Interests</h2>
+      <p>
+        <strong>Email:</strong>
+        <a href="mailto:linhchi2042006@gmail.com">linhchi2042006@gmail.com</a>
+      </p>
 
-        <div class="card">
-          <p>
-            I am especially interested in roles and learning opportunities related to:
-          </p>
+      <p>
+        <strong>Location:</strong> Hanoi, Vietnam
+      </p>
+    </div>
+  </section>
 
-          <div class="pill-list">
-            <span class="pill">International E-commerce Logistics</span>
-            <span class="pill">Export & Import Documentation</span>
-            <span class="pill">Freight Forwarding</span>
-            <span class="pill">Warehouse Operations</span>
-            <span class="pill">Supply Chain Coordination</span>
-            <span class="pill">Logistics Process Optimization</span>
-          </div>
-        </div>
-      </section>
+  <footer>
+    © 2026 Nguyễn Linh Chi. Portfolio built with GitHub Pages.
+  </footer>
 
-      <section id="activities">
-        <h2 class="section-title">Activities</h2>
+</main>
+```
 
-        <div class="card">
-          <h3>Volunteer Club Member</h3>
-          <p class="meta">Phan Đăng Lưu High School</p>
-          <p class="date">2021 – 2024</p>
-
-          <ul>
-            <li>Participated in community activities such as environmental cleaning and supporting disadvantaged people.</li>
-            <li>Developed teamwork, communication, and time management skills through volunteer work.</li>
-          </ul>
-        </div>
-      </section>
-
-      <section id="contact">
-        <h2 class="section-title">Contact</h2>
-
-        <div class="card contact-card">
-          <h3>Let’s connect</h3>
-
-          <p>
-            I am open to internship opportunities in logistics, supply chain,
-            international e-commerce logistics, and export-import operations.
-          </p>
-
-          <p>
-            <strong>Email:</strong>
-            <a href="mailto:linhchi2042006@gmail.com">linhchi2042006@gmail.com</a>
-          </p>
-
-          <p>
-            <strong>Location:</strong> Hanoi, Vietnam
-          </p>
-        </div>
-      </section>
-
-      <footer>
-        © 2026 Nguyễn Linh Chi. Portfolio built with GitHub Pages.
-      </footer>
-
-    </main>
   </div>
 
   <script>
@@ -825,6 +828,6 @@
       });
     });
   </script>
+
 </body>
 </html>
-```
